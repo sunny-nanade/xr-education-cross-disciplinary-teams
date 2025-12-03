@@ -2,7 +2,7 @@
 Replication materials for cross-disciplinary XR education study
 # Cross-Disciplinary XR Education: Team Formation Study
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+License: MIT (see `LICENSE`)
 
 **Replication materials for:** *Cross-Disciplinary vs Same-Branch Team Formation in Progressive XR Engineering Education: Effects on Learning Outcomes and Collaborative Experience*
 
@@ -249,17 +249,13 @@ We thank:
 
 ## Quick Links
 
-- **Paper:** Submitted to Frontiers in Education (December 2025)
-- **Frontiers in Education:** https://www.frontiersin.org/journals/education
-- **Issues/Questions:** [GitHub Issues](https://github.com/sunny-nanade/xr-education-cross-disciplinary-teams/issues)
+- Paper status: Submitted to Frontiers in Education (December 2025)
+- Journal: https://www.frontiersin.org/journals/education
+- Issues/Questions: https://github.com/sunny-nanade/xr-education-cross-disciplinary-teams/issues
 
 ---
 
-## Repository Statistics
-
-![GitHub last commit](https://img.shields.io/github/last-commit/sunny-nanade/xr-education-cross-disciplinary-teams)
-![GitHub repo size](https://img.shields.io/github/repo-size/sunny-nanade/xr-education-cross-disciplinary-teams)
-![GitHub stars](https://img.shields.io/github/stars/sunny-nanade/xr-education-cross-disciplinary-teams?style=social)
+<!-- Repository statistics section removed to maintain academic presentation -->
 
 ---
 
