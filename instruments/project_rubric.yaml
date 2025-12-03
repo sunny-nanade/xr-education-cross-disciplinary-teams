@@ -1,0 +1,82 @@
+# Project Quality Rubric
+# Team-level assessment of final VR/AR project
+# 5 criteria × 10 points each = 50 points total
+
+metadata:
+  name: "XR Project Quality Rubric"
+  version: "1.0"
+  date_created: "2025-12-03"
+  authors: ["Sunny Nanade", "Koteswara Rao Anne"]
+  validation:
+    pilot_inter_rater_reliability: 0.82  # Cohen's kappa
+    pilot_sample_size: 8
+  administration:
+    timing: "Week 15 (final project evaluation)"
+    raters: "Course instructor + peer evaluation"
+  scoring:
+    per_criterion_range: [1, 10]
+    total_range: [5, 50]
+    unit: "points"
+
+criteria:
+  - id: 1
+    name: "Functionality"
+    description: "Technical execution and stability of core features"
+    anchors:
+      weak: "1-3: Many bugs; incomplete features; crashes often"
+      adequate: "4-6: Core features work; minor bugs; occasional issues"
+      strong: "7-8: Solid functionality; rare bugs; stable"
+      excellent: "9-10: Flawless; all features polished; robust"
+    pedagogical_focus: "Core engineering competency (technical execution)"
+    
+  - id: 2
+    name: "XR Integration"
+    description: "Quality and depth of AR/VR/MR implementation"
+    anchors:
+      weak: "1-3: Minimal AR/VR use; feels like 2D app; no immersion"
+      adequate: "4-6: Basic AR/VR features; limited immersion; static interaction"
+      strong: "7-8: Good use of XR affordances (tracking, 3D interaction, spatial audio)"
+      excellent: "9-10: Innovative, seamless XR experience; advanced interactions (hand tracking, haptics)"
+    pedagogical_focus: "Domain-specific skill for immersive technologies"
+    
+  - id: 3
+    name: "UX/UI Design"
+    description: "User experience, interface clarity, and visual polish"
+    anchors:
+      weak: "1-3: Confusing navigation; poor visuals; frustrating"
+      adequate: "4-6: Usable but plain; some layout issues; adequate clarity"
+      strong: "7-8: Clean interface; intuitive flow; clear feedback"
+      excellent: "9-10: Professional design; delightful user experience; polished"
+    pedagogical_focus: "Essential for user-centered XR applications"
+    
+  - id: 4
+    name: "Innovation/Creativity"
+    description: "Originality of concept and novel features"
+    anchors:
+      weak: "1-3: Generic concept; no unique elements; derivative"
+      adequate: "4-6: Standard idea with minor twists; modest novelty"
+      strong: "7-8: Creative concept or novel feature; demonstrates originality"
+      excellent: "9-10: Highly original; showcases new approach; industry-level innovation"
+    pedagogical_focus: "Valued in project-based learning and industry preparation"
+    
+  - id: 5
+    name: "Overall Execution"
+    description: "Holistic assessment of integration, polish, and presentation quality"
+    anchors:
+      weak: "1-3: Rushed; lacks coherence; incomplete integration"
+      adequate: "4-6: Complete but unrefined; some rough edges"
+      strong: "7-8: Well-integrated; demonstrates effort; cohesive"
+      excellent: "9-10: Exceptional polish; presentation-ready; professional quality"
+    pedagogical_focus: "Team collaboration and project management"
+
+pedagogical_grounding:
+  - "Adapted from validated XR project assessment rubrics (Cecil, 2024)"
+  - "Functionality and XR Integration core to immersive learning (Kuanbayeva & Shazhdekeyeva, 2024)"
+  - "UX Design essential for user-centered applications (Riaji & El Hassani, 2025)"
+  - "Innovation valued in PBL and industry contexts (Haetami & Khan, 2024)"
+
+references:
+  - "Cecil, J. (2024). Innovative Next-Generation Virtual Reality-based Immersive Approaches. ASEE."
+  - "Kuanbayeva, B., & Shazhdekeyeva, N. (2024). AR in Supporting Collaborative Learning. IJEP, 14(2)."
+  - "Riaji, T., & El Hassani, S. (2025). Enhancing engineering education through VR. IJOBE, 21(1)."
+  - "Haetami, A., & Khan, O. (2024). Impact of VR on Collaborative Learning in Higher Education."

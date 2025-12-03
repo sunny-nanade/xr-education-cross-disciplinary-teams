@@ -1,0 +1,7 @@
+Test,N,t,df,p,Cohen_d,Interpretation
+Paired t-test: Pre vs Post (cross),30,15.313765620919636,29,1.9668808691315986e-15,2.4347969375277474,Significant learning gain
+Paired t-test: Pre vs Post (same),28,16.3763847835346,27,1.5090040841390277e-15,2.5066731215395532,Significant learning gain
+Independent t-test: Post-scores (cross vs same),30 vs 28,0.9734632241739397,56,0.33450941651694843,0.2557960907393051,No significant difference
+Independent t-test: Learning gains (cross vs same),30 vs 28,2.5588029184409904,56,0.013233510456073388,0.6723744331122032,Cross > Same
+Independent t-test: Project total (cross vs same),7 vs 7,1.883526437392046,12,0.0840842881651627,1.0067872296645648,No significant difference
+Independent t-test: Cross-discipline learning (cross vs same),31 vs 28,7.15225913257683,57,1.7739676756455695e-09,1.8647017747722905,Cross > Same

@@ -1,0 +1,132 @@
+# Pre/Post Unity Skills Test
+# 10 multiple-choice questions assessing foundational Unity/XR knowledge
+# Each correct answer = 1 point; total score 0-10
+
+metadata:
+  name: "Unity/XR Skills Assessment"
+  version: "1.0"
+  date_created: "2025-12-03"
+  authors: ["Sunny Nanade", "Koteswara Rao Anne"]
+  validation:
+    pilot_cronbach_alpha: 0.78
+    pilot_sample_size: 10
+  administration:
+    pre_test: "Week 1 (before Unity instruction)"
+    post_test: "Week 15 (after final project)"
+  scoring:
+    range: [0, 10]
+    unit: "points"
+
+questions:
+  - id: 1
+    text: "What is the primary purpose of the Unity GameObject hierarchy?"
+    options:
+      a: "To organize scenes and define parent-child relationships"
+      b: "To store player save files"
+      c: "To compile C# scripts"
+      d: "To render graphics"
+    correct: "a"
+    bloom_level: "Knowledge/Recall"
+    
+  - id: 2
+    text: "Which scripting language is used in Unity for game logic and interactivity?"
+    options:
+      a: "Python"
+      b: "JavaScript"
+      c: "C#"
+      d: "Java"
+    correct: "c"
+    bloom_level: "Knowledge/Recall"
+    
+  - id: 3
+    text: "How do you attach a C# script to a GameObject in Unity?"
+    options:
+      a: "Drag and drop the script onto the GameObject in the Inspector"
+      b: "Write code in the Console window"
+      c: "Use the File > Attach menu"
+      d: "Scripts attach automatically"
+    correct: "a"
+    bloom_level: "Comprehension"
+    
+  - id: 4
+    text: "What does the Transform component control in Unity?"
+    options:
+      a: "Audio volume"
+      b: "Position, rotation, and scale of GameObjects"
+      c: "Lighting intensity"
+      d: "Animation speed"
+    correct: "b"
+    bloom_level: "Knowledge/Recall"
+    
+  - id: 5
+    text: "What is the key difference between AR and VR?"
+    options:
+      a: "AR overlays digital content on the real world; VR creates a fully immersive digital environment"
+      b: "AR is for mobile only; VR is for PC only"
+      c: "AR uses no tracking; VR requires head tracking"
+      d: "AR and VR are the same technology"
+    correct: "a"
+    bloom_level: "Comprehension"
+    
+  - id: 6
+    text: "What is a Prefab in Unity and why is it useful?"
+    options:
+      a: "A reusable GameObject template that allows consistent duplication and updates"
+      b: "A type of texture file"
+      c: "A built-in Unity tutorial"
+      d: "A physics constraint"
+    correct: "a"
+    bloom_level: "Comprehension"
+    
+  - id: 7
+    text: "How do you detect when two objects collide in Unity?"
+    options:
+      a: "Use the OnCollisionEnter() or OnTriggerEnter() method in a script"
+      b: "Set the collision flag in the Inspector"
+      c: "Collisions are detected automatically without code"
+      d: "Use the Collision menu in the toolbar"
+    correct: "a"
+    bloom_level: "Application"
+    
+  - id: 8
+    text: "What is the primary purpose of the Unity Physics engine?"
+    options:
+      a: "To simulate realistic object movement, gravity, and collisions"
+      b: "To render high-quality graphics"
+      c: "To manage network connections"
+      d: "To compile scripts faster"
+    correct: "a"
+    bloom_level: "Application"
+    
+  - id: 9
+    text: "Which Unity package is required for AR development on mobile devices?"
+    options:
+      a: "AR Foundation"
+      b: "Unity ML-Agents"
+      c: "ProBuilder"
+      d: "Cinemachine"
+    correct: "a"
+    bloom_level: "Application"
+    
+  - id: 10
+    text: "What is raycasting used for in Unity?"
+    options:
+      a: "To detect what object the user is looking at or pointing at in 3D space"
+      b: "To create light rays"
+      c: "To compress textures"
+      d: "To optimize scripts"
+    correct: "a"
+    bloom_level: "Application"
+
+pedagogical_grounding:
+  - "Unity core competencies identified in systematic reviews (Zontou et al., 2024)"
+  - "AR/VR literacy essential for immersive technology education (Riaji & El Hassani, 2025)"
+  - "Debugging and problem-solving critical for collaborative XR development (Chasokela, 2025)"
+  - "Follows Bloom's taxonomy progression: knowledge → comprehension → application"
+
+references:
+  - "Suhail, N., Bahroun, Z., & Ahmed, V. (2024). Augmented reality in engineering education. Frontiers in Virtual Reality, 5."
+  - "Cecil, J. (2024). Innovative Next-Generation Virtual Reality-based Immersive Approaches. ASEE Annual Conference."
+  - "Zontou, E., et al. (2024). On the role of virtual reality in engineering education. European Journal of Engineering Education."
+  - "Riaji, T., & El Hassani, S. (2025). Enhancing engineering education through virtual reality. IJOBE, 21(1)."
+  - "Chasokela, D. (2025). VR to support student engagement and problem-solving. IJI, 18(1)."

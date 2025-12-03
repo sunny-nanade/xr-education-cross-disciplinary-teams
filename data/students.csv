@@ -1,0 +1,61 @@
+student_id,student_name,branch,team_id,condition,gender,year,programme,programme_group
+S01,BHAN RAVESH RAJ,Computer,T11,same,M,,B Tech Computer,CompGroup
+S55,VIDISHA KONDINYA,MBA Tech AI,T08,same,F,,MBA Tech AI,AIAGroup
+S54,RIDDHIRAJ KAUSHIK,MBA Tech AI,T08,same,M,,MBA Tech AI,AIAGroup
+S40,NAIN SADARANGANI,Cyber Security,T05,cross,F,,B Tech Cyber Security,AIAGroup
+S04,RAVAL SHRISHTI,Computer,T11,same,F,,B Tech Computer,CompGroup
+S08,CHAPLOT TANAY,Computer,T03,cross,M,,B Tech Computer,CompGroup
+S56,AHMED MOOSANI,MBA Tech AI,T04,cross,M,,MBA Tech AI,AIAGroup
+S50,REYA OBEROI,AI,T07,cross,F,,B Tech AI,AIAGroup
+S32,SNEHA DARBARWAR,Cyber Security,T06,cross,F,,B Tech Cyber Security,AIAGroup
+S29,AYUSH JHA,EXTC,T01,cross,M,,B Tech EXTC,OtherGroup
+S36,RAJPREET KHURANA,Cyber Security,T08,same,M,,B Tech Cyber Security,AIAGroup
+S23,PRATHAM LIKHIA,IT,T11,same,M,,B Tech IT,CompGroup
+S17,VAIDYA ATHARVA,MBA Tech Computer,T11,same,M,,MBA Tech Computer,CompGroup
+S46,ARUSH GUPTA,Data Science,T04,cross,M,,B Tech Data Science,CompGroup
+S60,TUSHAR VARSHNEY,MBA Tech AI,T02,cross,M,,MBA Tech AI,AIAGroup
+S07,GARG AYUSH MANOJ,Computer,T06,cross,M,,B Tech Computer,CompGroup
+S13,MERCHANT TAHA,MBA Tech Computer,T12,same,M,,MBA Tech Computer,CompGroup
+S34,NATHAN DSOUZA,Cyber Security,T08,same,M,,B Tech Cyber Security,AIAGroup
+S45,KAUNTEYA GOYAL,Data Science,T02,cross,M,,B Tech Data Science,CompGroup
+S14,SHAH SAHIL,MBA Tech Computer,T02,cross,M,,MBA Tech Computer,CompGroup
+S03,KRISHNAN ABHIJAY,Computer,T12,same,M,,B Tech Computer,CompGroup
+S05,SARWATE MIHIKA,Computer,T12,same,F,,B Tech Computer,CompGroup
+S12,MAURYA ARNAV,MBA Tech Computer,T02,cross,M,,MBA Tech Computer,CompGroup
+S52,ARJUN GHONE,MBA Tech AI,T09,same,M,,MBA Tech AI,AIAGroup
+S57,SANIA QURESHI,MBA Tech AI,T09,same,F,,MBA Tech AI,AIAGroup
+S15,SOLANKI JAINAM,MBA Tech Computer,T12,same,M,,MBA Tech Computer,CompGroup
+S18,YADAV AMISH,MBA Tech Computer,T05,cross,M,,MBA Tech Computer,CompGroup
+S28,SHYAM CHAVDA,EXTC,T02,cross,M,,B Tech EXTC,OtherGroup
+S58,ESHAAN SETHI,MBA Tech AI,T01,cross,M,,MBA Tech AI,AIAGroup
+S27,ZEEHAAN SHAH,IT,T07,cross,M,,B Tech IT,CompGroup
+S16,TATER HARDIK,MBA Tech Computer,T13,same,M,,MBA Tech Computer,CompGroup
+S09,GORADIA PARTH,MBA Tech Computer,T05,cross,M,,MBA Tech Computer,CompGroup
+S26,PRANEEL PALIWAL,IT,T13,same,M,,B Tech IT,CompGroup
+S43,DEV JAIN,Mechanical,T03,cross,M,,B Tech Mechanical,OtherGroup
+S51,TANISHA AHUJA,MBA Tech AI,T09,same,F,,MBA Tech AI,AIAGroup
+S25,MEET MAHESHWARI,IT,T13,same,M,,B Tech IT,CompGroup
+S21,ANVAY KHUPERKAR,IT,T13,same,M,,B Tech IT,CompGroup
+S02,BOHRA PRANEEL,Computer,T01,cross,M,,B Tech Computer,CompGroup
+S42,ADITYA JAIN,MBA Tech IT,T14,same,M,,MBA Tech IT,CompGroup
+S31,MANTEK SINGH BURN,Cyber Security,T07,cross,M,,B Tech Cyber Security,AIAGroup
+S48,ANANY DONERIA,AI,T09,same,F,,B Tech AI,AIAGroup
+S06,SONI PAL,Computer,T05,cross,F,,B Tech Computer,CompGroup
+S20,NIHAR CHURI,IT,T07,cross,M,,B Tech IT,CompGroup
+S37,MRIDULIKA MUKERJI,Cyber Security,T01,cross,F,,B Tech Cyber Security,AIAGroup
+S24,RADHA MAHAJAN,IT,T01,cross,F,,B Tech IT,CompGroup
+S30,PRAGYA KASLIWAL,EXTC,T03,cross,F,,B Tech EXTC,OtherGroup
+S33,THEODORA DSOUZA,Cyber Security,T10,same,F,,B Tech Cyber Security,AIAGroup
+S59,PRIYANSH SONI,MBA Tech AI,T06,cross,M,,MBA Tech AI,AIAGroup
+S11,MAHAJAN ADITYA,MBA Tech Computer,T03,cross,M,,MBA Tech Computer,CompGroup
+S47,VIDHI DAMANI,AI,T10,same,F,,B Tech AI,AIAGroup
+S35,YUGANDHARA GOUD,Cyber Security,T10,same,F,,B Tech Cyber Security,AIAGroup
+S41,DHRUV ACHARYA,MBA Tech IT,T14,same,M,,MBA Tech IT,CompGroup
+S39,SAHASRA RAMADUGU,Cyber Security,T04,cross,F,,B Tech Cyber Security,AIAGroup
+S44,DHWANI SONI,Mechanical,T04,cross,F,,B Tech Mechanical,OtherGroup
+S49,LUBHANA MUTHA,AI,T10,same,F,,B Tech AI,AIAGroup
+S22,SHREYAS LAPALIKAR,IT,T14,same,M,,B Tech IT,CompGroup
+S53,SACHI JAIN,MBA Tech AI,T06,cross,F,,MBA Tech AI,AIAGroup
+S10,JAIN ANSH,MBA Tech Computer,T03,cross,M,,MBA Tech Computer,CompGroup
+S19,MOHNISH BADIANI,IT,T14,same,M,,B Tech IT,CompGroup
+S38,AADIT PATIL,Cyber Security,T04,cross,M,,B Tech Cyber Security,AIAGroup

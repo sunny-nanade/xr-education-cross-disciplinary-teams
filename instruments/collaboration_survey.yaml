@@ -1,0 +1,63 @@
+# Collaboration & Experience Survey
+# Student-level self-report on team collaboration and cross-disciplinary learning
+# 5 items × 5-point Likert scale
+
+metadata:
+  name: "Collaboration Quality Survey"
+  version: "1.0"
+  date_created: "2025-12-03"
+  authors: ["Sunny Nanade", "Koteswara Rao Anne"]
+  validation:
+    pilot_cronbach_alpha: 0.84
+    pilot_sample_size: 15
+  administration:
+    timing: "Week 15 (end of semester)"
+    format: "Online survey (Google Forms or MS Forms)"
+  scoring:
+    per_item_range: [1, 5]
+    total_range: [5, 25]
+    scale: "1 = Strongly Disagree, 5 = Strongly Agree"
+
+items:
+  - id: 1
+    text: "I contributed meaningfully to my team's project."
+    dimension: "Self-efficacy and ownership"
+    purpose: "Baseline for team dynamics; similar across conditions"
+    
+  - id: 2
+    text: "I actively helped teammates understand technical concepts or solve problems."
+    dimension: "Peer teaching"
+    purpose: "Indicator of knowledge sharing and help-giving behavior"
+    
+  - id: 3
+    text: "My teammates provided useful help when I needed it."
+    dimension: "Peer support quality"
+    purpose: "Reciprocal learning; perceived quality of help received"
+    
+  - id: 4
+    text: "Working with students from other branches helped me learn new perspectives or skills."
+    dimension: "Cross-functional learning"
+    purpose: "Unique to mixed teams; key differentiator for cross vs same condition"
+    
+  - id: 5
+    text: "I would choose to work in a cross-disciplinary team again for similar projects."
+    dimension: "Satisfaction and future preference"
+    purpose: "Perceived value of cross-team experience and readiness for industry teamwork"
+
+analysis_notes:
+  - "Total score (sum of 5 items) used for overall collaboration quality comparison"
+  - "Individual items analyzed separately to identify specific collaboration dimensions"
+  - "Item 4 expected to show largest difference between cross and same teams"
+  - "Cronbach's alpha computed to assess internal consistency"
+
+pedagogical_grounding:
+  - "Items adapted from validated collaborative learning surveys (Paulsen et al., 2024)"
+  - "Peer support central to collaborative learning effectiveness (Kuanbayeva & Shazhdekeyeva, 2024)"
+  - "Cross-disciplinary learning unique value of mixed-branch teams (Haetami & Khan, 2024)"
+  - "Future preference indicator of positive experience and industry readiness"
+
+references:
+  - "Paulsen, L., Dau, S., & Davidsen, J. (2024). Designing for collaborative learning in immersive VR. Virtual Reality."
+  - "Dunmoye, I.D., et al. (2024). VR and Collaborative Learning in Engineering Education. IEEE EDUCON."
+  - "Kuanbayeva, B., & Shazhdekeyeva, N. (2024). AR in Supporting Collaborative Learning. IJEP, 14(2)."
+  - "Haetami, A., & Khan, O. (2024). Impact of VR on Collaborative Learning in Higher Education."

@@ -1,0 +1,15 @@
+team_id,condition,functionality_score,xr_integration_score,ux_design_score,innovation_score,overall_score,total_score
+T01,cross,7,6,6,7,8,34
+T02,cross,7,7,9,8,7,38
+T03,cross,7,7,5,6,7,32
+T04,cross,5,7,4,4,4,24
+T05,cross,7,7,9,7,7,37
+T06,cross,8,8,7,8,9,40
+T07,cross,5,8,7,7,7,34
+T08,same,3,3,4,4,3,17
+T09,same,8,8,6,8,6,36
+T10,same,6,5,6,6,9,32
+T11,same,6,5,4,5,5,25
+T12,same,7,7,6,5,6,31
+T13,same,7,7,6,6,4,30
+T14,same,6,6,5,6,5,28
