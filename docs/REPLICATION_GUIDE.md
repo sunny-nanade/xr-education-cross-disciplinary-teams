@@ -13,7 +13,7 @@ This guide ensures that all logic, decisions, and implementation details from ou
 3. [Step 1: Environment Setup](#step-1-environment-setup)
 4. [Step 2: Prepare Student Data](#step-2-prepare-student-data)
 5. [Step 3: Team Formation](#step-3-team-formation)
-6. [Step 4: Use Real Data from Study](#step-4-use-real-data-from-study)
+6. [Step 4: Use Provided Real Data](#step-4-use-provided-real-data)
 7. [Step 5: Run Statistical Analysis](#step-5-run-statistical-analysis)
 8. [Step 6: Interpret Results](#step-6-interpret-results)
 9. [Design Decisions Documentation](#design-decisions-documentation)
@@ -47,7 +47,7 @@ CurrentProject_XR_Education/
 │   ├── project_rubric.yaml            # 5-criterion rubric with anchors
 │   └── collaboration_survey.yaml       # 5 Likert items
 │
-├── scripts/                           # Python analysis scripts
+├── code/                              # Python analysis scripts
 │   ├── assign_teams.py                # Team formation algorithm
 │   └── analyze_data.py                # Complete statistical analysis
 │
@@ -122,7 +122,7 @@ You need a CSV file (`data/students.csv`) with the following columns:
 
 ### 2.2 Programme Group Mapping
 
-Edit `scripts/assign_teams.py` to map your programmes into 2-4 disciplinary groups:
+Edit `code/assign_teams.py` to map your programmes into 2-4 disciplinary groups:
 
 ```python
 def programme_group(programme):
@@ -174,7 +174,7 @@ Open `data/students.csv` and manually verify:
 
 ### 3.3 Adjusting Team Numbers
 
-To change the number of cross teams, edit `scripts/assign_teams.py`:
+To change the number of cross teams, edit `code/assign_teams.py`:
 
 ```python
 # Line 89: Change target number of cross teams
@@ -185,36 +185,11 @@ teams = assign_teams(students_df, target_cross_teams=7)  # Change 7 to your targ
 
 ---
 
-## Step 4: Use Real Data from Study
+## Step 4: Use Provided Real Data
 
-The repository includes real anonymized student data from the actual study:
+This repository includes real anonymized data from the study. You can run the analysis directly using the provided CSV files in `data/` without any synthetic data generation.
 
-```powershell
-python scripts/generate_data.py
-```
-
-**What it does:**
-1. Generates pre/post test scores with realistic distributions and human variance
-2. Generates project rubric scores with halo effects and outliers
-3. Generates collaboration survey responses with social desirability and straight-lining
-4. Writes three CSV files: `data/prepost_scores.csv`, `data/project_rubric.csv`, `data/collaboration_survey.csv`
-
-**Random Seeds for Reproducibility:**
-- Seed 42: Pre/post score generation
-- Seed 43: Project rubric generation
-- Seed 44: Collaboration survey generation
-
-**Human Variance Patterns Included:**
-- 2-3 missing post-test scores (absences)
-- 1-2 test anxiety cases (post < pre)
-- 3-4 high achievers (scores 9-10)
-- Halo effects in rubric (high functionality boosts other criteria)
-- 1 team coordination failure (low scores)
-- 1 late submission (scores 2-4)
-- 3-4 straight-liners in surveys (all 4s)
-- 2-3 incomplete surveys (missing values)
-
-### Option B: Collect Real Data
+If you are implementing this study at your institution, collect real data at these timepoints:
 
 **For real implementation, collect data at these timepoints:**
 
@@ -258,7 +233,7 @@ S02,3,4,4,3,4
 ### 5.1 Execute Analysis Script
 
 ```powershell
-python scripts/analyze_data.py
+python code/analyze_data.py
 ```
 
 **What it does:**
@@ -466,9 +441,9 @@ For questions about replication:
 - **Email:** sunny.nanade@nmims.edu
 - **ORCID:** 0000-0001-7098-1084
 
-We welcome collaboration and are happy to assist other institutions implementing cross-disciplinary XR education!
+We welcome collaboration and can assist institutions implementing cross-disciplinary XR education.
 
 ---
 
-**Last Updated:** January 2025  
+**Last Updated:** December 2025  
 **Version:** 1.0

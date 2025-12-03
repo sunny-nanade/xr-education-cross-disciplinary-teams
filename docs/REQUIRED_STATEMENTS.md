@@ -34,16 +34,16 @@ We thank the 60 undergraduate engineering students who participated in this stud
 
 ## Data Availability Statement
 
-The datasets generated and analyzed for this study, including anonymized student assessment data, project rubric scores, and collaboration survey responses, along with all Python analysis code and YAML-formatted assessment instruments, are openly available via GitHub at https://github.com/sunny-nanade/xr-education-cross-disciplinary-teams
+The datasets analyzed in this study, including anonymized student assessment data, project rubric scores, and collaboration survey responses, along with all Python analysis code and YAML-formatted assessment instruments, are available via GitHub: https://github.com/sunny-nanade/xr-education-cross-disciplinary-teams
 
-The repository includes:
-- Anonymized participant data (CSV format)
-- Python analysis code with full documentation (712 lines: team formation, data generation, statistical analysis)
-- Assessment instruments (pre/post test, project rubric, collaboration survey in YAML format)
-- Publication-ready results tables (CSV + LaTeX) and figures (PNG 300dpi)
-- Complete replication guide (400+ lines of documentation)
+Repository contents include:
+- Anonymized participant data (CSV)
+- Python analysis code (team formation and statistical analysis)
+- Assessment instruments (pre/post test, project rubric, collaboration survey in YAML)
+- Publication-ready tables (CSV + LaTeX) and figures (PNG, 300 dpi)
+- A comprehensive replication guide
 
-Data and code are available under MIT License. Questions can be directed to the corresponding author at sunny.nanade@nmims.edu. To protect student privacy, the publicly shared version uses anonymized student identifiers (ST001-ST060); the file mapping identifiers to student names is retained securely by the authors for verification and auditing purposes only.
+Data and code are licensed under MIT. Questions can be directed to the corresponding author at sunny.nanade@nmims.edu. To protect student privacy, the publicly shared version uses anonymized student identifiers (e.g., ST001–ST060); the file mapping identifiers to student names is retained securely by the authors for verification and auditing purposes only.
 
 ---
 
@@ -57,13 +57,13 @@ Informed consent was obtained via Google Forms during Week 1 after full disclosu
 
 ## Supplementary Material
 
-**Supplementary Data File S1** contains:
+Supplementary materials include:
 - Complete text of all three assessment instruments with scoring rubrics
-- Python scripts for team formation, data generation, and statistical analysis
+- Python scripts for team formation and statistical analysis
 - Extended statistical tables (full descriptive statistics, correlation matrices)
 - Comprehensive replication guide with step-by-step instructions
 
-All supplementary materials are also available in the OSF repository referenced in the Data Availability Statement.
+All materials are available in the GitHub repository referenced in the Data Availability Statement.
 
 ---
 
@@ -122,8 +122,7 @@ When converting to LaTeX using `frontiers.tex` template:
 - [ ] IRB protocol number confirmed (need to verify with institution)
 - [x] Funding statement (no funding)
 - [x] Acknowledgments complete
-- [x] Data availability plan (OSF)
-- [ ] OSF project created with view-only link for review
+- [x] Data availability plan (GitHub)
 - [ ] Ethics statement complete (pending IRB number verification)
 - [ ] Supplementary materials compiled
 - [x] Keywords finalized (7 keywords)
