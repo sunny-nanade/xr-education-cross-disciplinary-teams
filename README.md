@@ -12,7 +12,7 @@ Replication materials for cross-disciplinary XR education study
 
 ---
 
-## 📋 Overview
+## Overview
 
 This repository contains complete replication materials for a quasi-experimental study comparing **cross-disciplinary** and **same-branch** team formation in an AR/VR engineering course. 
 
@@ -73,7 +73,7 @@ xr-education-cross-disciplinary-teams/
 
 ---
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Reproduce All Results (2 minutes)
 
@@ -101,7 +101,7 @@ python code/analyze_data.py
 
 ---
 
-## 📊 Results Summary
+## Results Summary
 
 ### Learning Outcomes
 
@@ -126,7 +126,7 @@ python code/analyze_data.py
 
 ---
 
-## 🎓 Pedagogical Context
+## Pedagogical Context
 
 ### Course Design
 
@@ -158,7 +158,7 @@ python code/analyze_data.py
 
 ---
 
-## 🔧 Adaptation for Your Context
+## Adaptation for Your Context
 
 ### Replication for Your Context
 
@@ -180,7 +180,7 @@ python code/analyze_data.py
 
 ---
 
-## 📖 Citation
+## Citation
 
 ### Paper (APA 7th)
 
@@ -200,14 +200,14 @@ https://github.com/sunny-nanade/xr-education-cross-disciplinary-teams
 
 ---
 
-## 📄 License
+## License
 
 **MIT License** - See [LICENSE](LICENSE) file for details.
 
 You are free to:
-- ✅ Use for any purpose (including commercial)
-- ✅ Modify and redistribute
-- ✅ Include in proprietary software
+- Use for any purpose (including commercial)
+- Modify and redistribute
+- Include in proprietary software
 
 **Requirements:**
 - Include copyright notice and license
@@ -215,13 +215,13 @@ You are free to:
 
 ---
 
-## 📧 Contact
+## Contact
 
 **Corresponding Author:**  
 Sunny Nanade  
 NMIMS Mukesh Patel School of Technology Management & Engineering  
 Mumbai, India  
-📧 sunny.nanade@nmims.edu
+Email: sunny.nanade@nmims.edu
 
 **Questions about:**
 - **Data/Code:** sunny.nanade@nmims.edu
@@ -230,7 +230,7 @@ Mumbai, India
 
 ---
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 We thank:
 - The 60 undergraduate students who participated in this study
@@ -240,14 +240,14 @@ We thank:
 
 ---
 
-## 📚 Related Publications
+## Related Publications
 
 - **Conference version:** Extended abstract presented at iCiTeL-2.0 (2024)
 - **Full paper:** Submitted to Frontiers in Education (2025)
 
 ---
 
-## 🔗 Quick Links
+## Quick Links
 
 - **Paper:** Submitted to Frontiers in Education (December 2025)
 - **Frontiers in Education:** https://www.frontiersin.org/journals/education
@@ -255,7 +255,7 @@ We thank:
 
 ---
 
-## 📈 Repository Statistics
+## Repository Statistics
 
 ![GitHub last commit](https://img.shields.io/github/last-commit/sunny-nanade/xr-education-cross-disciplinary-teams)
 ![GitHub repo size](https://img.shields.io/github/repo-size/sunny-nanade/xr-education-cross-disciplinary-teams)
@@ -270,4 +270,3 @@ We thank:
 ---
 
 **For detailed replication instructions, see [`docs/REPLICATION_GUIDE.md`](docs/REPLICATION_GUIDE.md)**
->>>>>>> 8dfed4d (Initial commit: Real data, real code, replication-ready)
