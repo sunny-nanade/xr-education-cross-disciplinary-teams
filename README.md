@@ -14,7 +14,7 @@ Replication materials for cross-disciplinary XR education study
 
 ## Overview
 
-This repository contains complete replication materials for a quasi-experimental study comparing **cross-disciplinary** and **same-branch** team formation in an AR/VR engineering course. 
+This repository provides replication materials for a quasi-experimental study comparing cross-disciplinary and same-branch team formation in an AR/VR engineering course.
 
 **Sample:** 60 undergraduate students from 9 engineering programmes  
 **Design:** 14 teams (7 cross-disciplinary, 7 same-branch)  
@@ -26,9 +26,9 @@ This repository contains complete replication materials for a quasi-experimental
 
 | Outcome | Effect Size | Significance | Interpretation |
 |---------|-------------|--------------|----------------|
-| **Learning Gains** | *d* = 0.67 | *p* = .013 | Cross-disciplinary teams showed **medium-large advantage** |
-| **Cross-Learning Experience** | *d* = 1.86 | *p* < .001 | **Very large effect** favoring cross-disciplinary teams |
-| **Project Quality** | *d* = 1.01 | *p* = .084 | Trend toward higher scores (approaching significance) |
+| Learning gains | d = 0.67 | p = .013 | Medium to large advantage for cross-disciplinary teams |
+| Cross-learning experience | d = 1.86 | p < .001 | Very large effect favoring cross-disciplinary teams |
+| Project quality | d = 1.01 | p = .084 | Trend toward higher scores (approaching significance) |
 
 ---
 
@@ -75,7 +75,7 @@ xr-education-cross-disciplinary-teams/
 
 ## Quick Start
 
-### Reproduce All Results (2 minutes)
+### Reproduce All Results
 
 ```bash
 # 1. Clone repository
@@ -94,10 +94,10 @@ python code/analyze_data.py
 # - Statistics: results/*.csv and results/reliability.txt
 ```
 
-**Expected output:**
-- 3 publication-ready tables (CSV + LaTeX)
-- 3 high-resolution figures (PNG 300dpi)
-- Descriptive statistics, t-tests, effect sizes, reliability (α = .72)
+Expected outputs:
+- Three publication-ready tables (CSV and LaTeX)
+- Three figures (PNG, 300 dpi)
+- Descriptive statistics, t-tests, effect sizes, and reliability (Cronbach's α ≈ .72)
 
 ---
 
@@ -105,21 +105,21 @@ python code/analyze_data.py
 
 ### Learning Outcomes
 
-**Cross-disciplinary teams** gained **0.96 points more** on knowledge tests:
+Cross-disciplinary teams gained 0.96 points more on knowledge tests:
 - Cross-disciplinary: *M* = 2.28 (*SD* = 1.07)
 - Same-branch: *M* = 1.32 (*SD* = 1.23)
 - *t*(56) = 2.55, *p* = .013, Cohen's *d* = 0.67
 
 ### Collaborative Learning Experience
 
-**Cross-disciplinary teams** rated collaboration **1.31 points higher**:
+Cross-disciplinary teams rated collaboration 1.31 points higher:
 - Cross-disciplinary: *M* = 4.21 (*SD* = 0.55)
 - Same-branch: *M* = 2.90 (*SD* = 0.79)
 - *t*(54) = 6.86, *p* < .001, Cohen's *d* = 1.86
 
 ### Project Quality
 
-**Trend toward higher scores** in cross-disciplinary teams:
+There was a trend toward higher scores in cross-disciplinary teams:
 - Cross-disciplinary: *M* = 3.29 (*SD* = 0.49)
 - Same-branch: *M* = 2.87 (*SD* = 0.43)
 - *t*(12) = 1.85, *p* = .084, Cohen's *d* = 1.01
