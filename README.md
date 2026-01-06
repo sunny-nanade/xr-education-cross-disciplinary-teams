@@ -105,23 +105,23 @@ Expected outputs:
 
 ### Learning Outcomes
 
-Cross-disciplinary teams gained 0.96 points more on knowledge tests:
-- Cross-disciplinary: *M* = 2.28 (*SD* = 1.07)
-- Same-branch: *M* = 1.32 (*SD* = 1.23)
-- *t*(56) = 2.55, *p* = .013, Cohen's *d* = 0.67
+Cross-disciplinary teams showed significantly higher learning gains:
+- Cross-disciplinary: *M* = 4.57 (*SD* = 1.63, *n* = 30)
+- Same-branch: *M* = 3.61 (*SD* = 1.17, *n* = 28)
+- *t*(56) = 2.54, *p* = .013, Cohen's *d* = 0.67
 
 ### Collaborative Learning Experience
 
-Cross-disciplinary teams rated collaboration 1.31 points higher:
-- Cross-disciplinary: *M* = 4.21 (*SD* = 0.55)
-- Same-branch: *M* = 2.90 (*SD* = 0.79)
-- *t*(54) = 6.86, *p* < .001, Cohen's *d* = 1.86
+Cross-disciplinary teams reported substantially higher collaboration quality:
+- Cross-disciplinary: *M* = 4.42 (*SD* = 0.55, *n* = 32)
+- Same-branch: *M* = 2.90 (*SD* = 0.79, *n* = 28)
+- *t*(58) = 8.48, *p* < .001, Cohen's *d* = 1.86
 
 ### Project Quality
 
-There was a trend toward higher scores in cross-disciplinary teams:
-- Cross-disciplinary: *M* = 3.29 (*SD* = 0.49)
-- Same-branch: *M* = 2.87 (*SD* = 0.43)
+Cross-disciplinary teams showed higher overall project quality:
+- Cross-disciplinary: *M* = 34.14 (*SD* = 5.24, *n* = 7 teams)
+- Same-branch: *M* = 28.43 (*SD* = 6.08, *n* = 7 teams)
 - *t*(12) = 1.85, *p* = .084, Cohen's *d* = 1.01
 
 ---
@@ -152,8 +152,8 @@ There was a trend toward higher scores in cross-disciplinary teams:
 
 - **N** = 60 undergraduate engineering students
 - **Age:** *M* = 19.8 years (*SD* = 0.9), Range: 18-22
-- **Gender:** 73% male (*n* = 44), 27% female (*n* = 16)
-- **Branches:** Computer Science, IT, Electronics, Mechanical, Civil, Biomedical, Chemical, Instrumentation, Production
+- **Gender:** 67% male (*n* = 40), 33% female (*n* = 20)
+- **Branches:** Computer Science, Information Technology, Data Science, Artificial Intelligence, Cyber Security, Electronics & Telecommunication, Mechanical Engineering, MBA Tech (Computer), MBA Tech (AI)
 - **Prior XR experience:** 12% (*n* = 7)
 
 ---
