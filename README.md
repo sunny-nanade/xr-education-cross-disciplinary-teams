@@ -8,7 +8,7 @@ License: MIT (see `LICENSE`)
 
 **Authors:** Sunny Nanade, Koteswara Rao Anne  
 **Affiliation:** NMIMS Mukesh Patel School of Technology Management & Engineering, Mumbai, India  
-**Status:** Manuscript submitted to Frontiers in Education (December 2025)
+**Status:** Manuscript under review at Frontiers in Education (submitted December 2025)
 
 ---
 
@@ -32,7 +32,7 @@ This repository provides replication materials for a quasi-experimental study co
 
 ---
 
-## 📁 Repository Structure
+## Repository Structure
 
 ```
 xr-education-cross-disciplinary-teams/
@@ -113,9 +113,9 @@ Cross-disciplinary teams showed significantly higher learning gains:
 ### Collaborative Learning Experience
 
 Cross-disciplinary teams reported substantially higher collaboration quality:
-- Cross-disciplinary: *M* = 4.42 (*SD* = 0.55, *n* = 32)
-- Same-branch: *M* = 2.90 (*SD* = 0.79, *n* = 28)
-- *t*(58) = 8.48, *p* < .001, Cohen's *d* = 1.86
+- Cross-disciplinary: *M* = 4.42 (*SD* = 0.67, *n* = 31)
+- Same-branch: *M* = 3.11 (*SD* = 0.74, *n* = 28)
+- *t*(57) = 7.15, *p* < .001, Cohen's *d* = 1.86
 
 ### Project Quality
 
@@ -162,7 +162,12 @@ Cross-disciplinary teams showed higher overall project quality:
 
 ### Replication for Your Context
 
-**Use our team formation algorithm:**
+**Team formation algorithm (`code/assign_teams.py`):**
+
+The algorithm operates in two stages:
+1. Students are mapped to one of three disciplinary clusters based on their programme: Computing (CS, IT, Data Science), AI and Security (AI, Cyber Security), or Traditional Engineering (Electronics, Mechanical, and related branches).
+2. A greedy iterative procedure forms cross-disciplinary teams by selecting students across clusters so that each team contains members from at least two distinct clusters, optimising for maximum cluster diversity while keeping team sizes between 4 and 5. Remaining students are assigned to same-branch teams drawn exclusively from within a single cluster (uniform size of 4).
+
 ```python
 python code/assign_teams.py --input your_students.csv --output your_teams.csv
 ```
@@ -249,7 +254,7 @@ We thank:
 
 ## Quick Links
 
-- Paper status: Submitted to Frontiers in Education (December 2025)
+- Paper status: Under review at Frontiers in Education (submitted December 2025)
 - Journal: https://www.frontiersin.org/journals/education
 - Issues/Questions: https://github.com/sunny-nanade/xr-education-cross-disciplinary-teams/issues
 
@@ -259,9 +264,9 @@ We thank:
 
 ---
 
-**Version:** 1.0  
-**Last Updated:** December 2025  
-**Status:** Manuscript submitted, data publicly available
+**Version:** 1.1  
+**Last Updated:** April 2026 (revised per reviewer feedback)  
+**Status:** Manuscript under review, data publicly available
 
 ---
 
